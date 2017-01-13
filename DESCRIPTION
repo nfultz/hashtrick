@@ -7,7 +7,7 @@ Maintainer: Neal Fultz <nfultz@openmail.com>
 Description: An implementation of the hash trick using the OpenSSL library.
 License: MIT
 Imports:
-    openssl
+    Matrix
 Encoding: UTF-8
 LazyData: true
 SystemRequirements: OpenSSL >= 1.0.1
