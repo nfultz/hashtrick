@@ -55,10 +55,10 @@ hash_col.factor <- function(x, m, algo, key) {
 #' @useDynLib hashtrick R_digest
 #' @export
 #' @rdname digest
-digest <- function(x, m, algo) .Call(R_digest, x, m, algo)
+digest <- function(x, m, algo, ...) .Call(R_digest, x, m, algo)
 
 #' @useDynLib hashtrick R_hmac
 #' @export
 #' @rdname digest
-hmac <- function(x, m, algo) .Call(R_hmac, x, m, algo, key)
+hmac <- function(x, m, algo, key) .Call(R_hmac, x, m, algo, key)
 

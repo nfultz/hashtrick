@@ -5,9 +5,9 @@
 \alias{hmac}
 \title{Raw hash functions}
 \usage{
-digest(x, m, algo)
+digest(x, m, algo, ...)
 
-hmac(x, m, algo)
+hmac(x, m, algo, key)
 }
 \arguments{
 \item{x}{character vector to hash}
