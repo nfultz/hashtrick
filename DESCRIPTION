@@ -1,12 +1,11 @@
 Package: hashtrick
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Hash Trick
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Neal Fultz, Jeroen Ooms
+Maintainer: Neal Fultz <nfultz@openmail.com>
+Description: An implementation of the hash trick using the OpenSSL library.
+License: MIT
 Imports:
     openssl
 Encoding: UTF-8
@@ -14,3 +13,4 @@ LazyData: true
 SystemRequirements: OpenSSL >= 1.0.1
 NeedsCompilation: yes
 RoxygenNote: 5.0.1
+Copyright: Openmail 2017

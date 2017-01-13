@@ -18,7 +18,7 @@ void R_init_hashtrick(DllInfo *info) {
   SSL_library_init();
 }
 
-void R_unload_curl(DllInfo *info) {
+void R_unload_hashtrick(DllInfo *info) {
   ERR_free_strings();
   EVP_cleanup();
 }
